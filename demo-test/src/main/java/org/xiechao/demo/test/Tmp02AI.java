@@ -26,16 +26,21 @@ import java.util.Map;
 public class Tmp02AI {
 
     public static void main(String[] args) throws Exception {
+        System.out.println(tuling("北京天气怎么样"));
+    }
+
+
+    public static String tuling(String info) throws Exception {
         String key="403a02f387193c142cdbf3f7ec05abef";
         String secret="d1324851fbd0fcf7";
         String  url="http://www.tuling123.com/openapi/api";
         String timestamp=""+1469430594848L;//new Date().getTime();
         Map<String,String> param=new HashMap<>();
         param.put("key",key);
-        param.put("info","你是猪吗");
+        param.put("info",info);
 
         String rs=post(url,param);
-        System.out.println(new String(rs.getBytes(U.ISO),U.UTF));
+        return new String(rs.getBytes(U.ISO),U.UTF);
 
 //
 //
