@@ -14,6 +14,9 @@ public class U {
 
     public static final ObjectMapper OM=new ObjectMapper();
 
+    public static final String UTF="UTF-8";
+    public static final String ISO="ISO-8859-1";
+
     static {
         OM.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS"));
     }
