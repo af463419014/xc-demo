@@ -1,7 +1,12 @@
 
 
-
+# 个人的配置
+user.properties
 
 #idea
 .idea
 *.iml
+
+
+target
+

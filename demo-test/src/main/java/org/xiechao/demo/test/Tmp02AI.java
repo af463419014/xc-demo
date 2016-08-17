@@ -26,7 +26,7 @@ import java.util.Map;
 public class Tmp02AI {
 
     public static void main(String[] args) throws Exception {
-        System.out.println(tuling("北京天气怎么样"));
+        System.out.println(tuling("今天天气好吗"));
     }
 
 
