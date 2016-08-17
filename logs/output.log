@@ -1,4 +1,0 @@
-[2016-07-26 10:49:04,554] [main] (DefaultRequestDirector.java:623) INFO  
- -信息 I/O exception (java.net.SocketException) caught when connecting to the target host: Broken pipe
-[2016-07-26 10:49:04,556] [main] (DefaultRequestDirector.java:629) INFO  
- -信息 Retrying connect
