@@ -1,5 +1,5 @@
 # 我的博客地址 
-[http://www.xiechao.org](http://www.xiechao.org)
+[http://blog.xiechao.org](http://blog.xiechao.org)
 
 ## demo-sample(博客中的样例程序)
 
